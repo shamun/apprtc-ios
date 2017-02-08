@@ -1,12 +1,3 @@
-# AppRTC - iOS implementation of the Google WebRTC Demo
-
-## About
-This Xcode project is a native wrapper for the Google's WebRTC Demo. It organizes the WebRTC components into a cocoa pod that can be easily deployed into any Xcode project. The precompiled libWebRTC static library bundled with the pod works with 64-bit apps, unlike prior versions of WebRTC projects where only the 32-bit version was available. Currently, the project is designed to run on iOS Devices (iOS Simulator is not supported).
-
-Included in this Xcode project is a native Storyboard based Room Locator and Video Chat View Controllers:
-
-![AppRTC - iOS WebRTC Client Pod](./screenshots/screenshots.jpg "AppRTC iOS WebRTC App")
-
 ## Features
 * Fully native objective-c 64-bit support
 * pre-compiled libWebRTC.a (saves you hours of compiling)
