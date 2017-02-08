@@ -1,3 +1,10 @@
+ERRORS:
+
+![](http://i.imgur.com/ycJiWEc.png)
+
+
+
+
 ## Features
 * Fully native objective-c 64-bit support
 * pre-compiled libWebRTC.a (saves you hours of compiling)
