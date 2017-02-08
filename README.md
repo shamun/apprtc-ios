@@ -29,7 +29,27 @@ To run the app on your iPhone or iPad you can fork this repository and open the 
 ## Using the AppRTC Pod in your App
 If you'd like to incorporate WebRTC Video Chat into your own application, you can install the AppRTC pod:
 ```
-pod install AppRTC
+//pod install AppRTC
+$ /Users/sun/Downloads/apprtc-ios-master
+$ gem install cocoapods 
+$ cat Podfile
+target 'AppRTC' do
+  pod 'AppRTC', '~> 1.0'
+end
+
+$ pod install
+Re-creating CocoaPods due to major version update.
+Analyzing dependencies
+Downloading dependencies
+Installing AppRTC (1.0.2)
+Installing SocketRocket (0.5.1)
+Installing libjingle_peerconnection (11177.2.0)
+Generating Pods project
+Integrating client project
+Sending stats
+Pod installation complete! There is 1 dependency from the Podfile and 3 total pods installed.
+
+
 ```
 From there you can look at the `ARTCVideoChatViewController` class in this repo. The following steps below detail the specific changes you will need to make in your app to add Video Chat.
 #### Initialize SSL Peer Connection
